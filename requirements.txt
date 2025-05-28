@@ -1,0 +1,14 @@
+fastapi[standard]>=0.113.0
+pydantic>=2.8.0
+beanie>=1.27.0
+pydantic-settings>=2.6.1
+motor>=3.6.0
+pymongo>=4.9.2
+PyJWT>=2.9.0
+requests>=2.32.2
+passlib>=1.7.4
+bcrypt>=4.2.1
+pytz>=2025.1
+tzlocal>=5.3
+cloudinary>=1.43.0
+uvicorn>=0.34.0
