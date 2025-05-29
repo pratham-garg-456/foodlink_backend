@@ -6,12 +6,13 @@ from app.models.service import Service
 from app.models.contact import Contact
 from app.models.user import User
 from app.models.donation import Donation
+from app.config import settings
 
-# Configuration
+# Load environment variables
 cloudinary.config(
-    cloud_name="dsyakhivg",
-    api_key="554361879535433",
-    api_secret="5MQvSQUhGVXwUZgr3n_N4bUsV7Q",  # Replace with your actual API secret
+    cloud_name=settings.CLOUDINARY_CLOUD_NAME,
+    api_key=settings.CLOUDINARY_API_KEY,
+    api_secret=settings.CLOUDINARY_API_SECRET,
     secure=True
 )
 
